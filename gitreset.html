@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  <form action="" method="post">
-    <label for="commit">Enter commit hash:</label>
-    <input type="text" id="commit" name="commit" required>
-    <button type="submit">Reset</button>
+  <section>
+    <h1>Git Reset</h1>
+    <p>Git reset is a command used to undo local changes in a Git repository. It can be used to reset the current branch
+      to a specific commit, discarding any changes made after that commit.</p>
+    <p>There are three main types of git reset:</p>
+    <ul>
+      <li><strong>Soft Reset:</strong> Moves the HEAD pointer to a specific commit, but keeps the changes in the working
+        directory and staging area.</li>
+      <li><strong>Mixed Reset:</strong> Moves the HEAD pointer to a specific commit and resets the staging area, but
+        keeps the changes in the working directory.</li>
+      <li><strong>Hard Reset:</strong> Moves the HEAD pointer to a specific commit and discards all changes in the
+        working directory and staging area.</li>
+    </ul>
+  </section>
+  <section>
+    Contact
+  </section>
+  <section>
+    <div>
+      <form action="" method="post">
+        <label for="commit">Enter commit hash:</label>
+        input type="text" id="commit" name="commit" required>
+        <button type="submit">Reset</button>
+    </div>
+  </section>
 </body>
+
 </html>
